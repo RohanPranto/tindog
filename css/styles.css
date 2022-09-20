@@ -1,8 +1,10 @@
-#title {
-  background-color: #ff4c68;
-  color: white;
+body {
+  font-family: Montserrat;
+
 }
 
+
+/* HEADING */
 h1 {
   font-family: Montserrat;
   font-weight: 900;
@@ -10,12 +12,40 @@ h1 {
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15%;
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
 }
 
-body {
-  font-family: Montserrat;
+h3 {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+.pricing-text {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: black;
+}
+.cta-text {
+  color: #fff;
+  padding-top: 80px;
+  font-size: 2.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
 }
 
 /* NavBar */
@@ -25,10 +55,7 @@ body {
   padding: 0 0 65px;
 }
 
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2rem;
-}
+
 
 .nav-item {
   padding: 0 18px;
@@ -54,10 +81,6 @@ body {
   position: relative;
 }
 
-h3 {
-  font-weight: 800;
-}
-
 p {
   color: grey;
 }
@@ -74,10 +97,14 @@ p {
 /* Testimonials */
 #testimonials {
   text-align: center;
-  background-color: #FF8B8B;
+  background-color: #ff4c68;
   height: 600px;
 }
 
+.names{
+  font-weight: 300;
+  color: white;
+}
 .kaju {
   border-radius: 100%;
 }
@@ -91,13 +118,6 @@ p {
   width: 10%;
   filter: drop-shadow(4px 4px 4px grey);
   margin: 20px;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: white;
 }
 
 .kutta {
@@ -114,12 +134,12 @@ h2 {
 /* Press */
 #press {
   text-align: center;
-  background-color: #FF8B8B
+  background-color: #ff4c68;
 }
 
 .pp {
   padding-bottom: 30px;
-  padding-right: 30px;
+  margin-right: 40px;
   width: 200px;
 }
 
@@ -127,6 +147,22 @@ h2 {
 #pricing {
   text-align: center;
   padding: 100px;
+}
+.newbutton{
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #d43b55;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.newbutton:hover {
+  background: #f07f9d;
+  text-decoration: none;
 }
 
 .card1 {
@@ -141,56 +177,54 @@ h2 {
   margin: 0 30px;
 }
 
-.pc {
-  font-family: "Montserrat";
-  font-weight: 800;
-  font-size: 2.5rem;
-  color: black;
-}
+
+
 /* cta */
-#cta{
-  background-color: #EC7272;
+#cta {
+  background-color: #ff4c68;
   text-align: center;
-
 }
 
-.btncta{
+.btncta {
   margin: 10px auto;
 }
 
-.ctah3{
-  color: #fff;
-  padding-top: 80px;
-  font-size: 2.5rem;
-}
-.btnn{
+
+
+.btnn {
   padding-bottom: 80px;
 }
 
 /* footer */
-#footer{
+#footer {
   text-align: center;
 }
-.linkss{
+
+.linkss {
   margin: auto 5px 20px 5px;
   padding-bottom: 20px;
 }
-.links{
+
+.links {
   margin-top: 30px;
 }
-.ses{
+
+.ses {
   padding-top: 40px;
-padding-bottom: 40px;
+  padding-bottom: 40px;
 }
+
 @media (max-width: 1028px) {
   .title-img {
     position: static;
     transform: rotate(0);
   }
-  #title{
+
+  #title {
     text-align: center;
   }
-  h1{
+
+  h1 {
     font-size: 2rem;
   }
 }
